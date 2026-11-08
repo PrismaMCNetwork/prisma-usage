@@ -1,0 +1,11 @@
+{
+  "name": "prisma-tools",
+  "owner": { "name": "PrismaMC" },
+  "plugins": [
+    {
+      "name": "prisma-usage",
+      "source": "./claude-plugin/prisma-usage",
+      "description": "Reports Claude Code token usage (per API call and per tool) to PrismaMind and keeps a local log to debug expensive sessions and failing tools."
+    }
+  ]
+}
